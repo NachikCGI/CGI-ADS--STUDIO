@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGI Ad's Studio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .portfolio, .services, .about, .contact {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .portfolio h2, .services h2, .about h2, .contact h2 {
+      color: #007BFF;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .portfolio-item, .service-item {
+      margin-bottom: 20px;
+    }
+    .portfolio-item img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .service-item h3 {
+      color: #333;
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CGI Ad's Studio</h1>
+    <p>Bringing Imagination to Life with Stunning CGI Ads</p>
+  </header>
+
+  <div class="container">
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+      <h2>Our Portfolio</h2>
+      <div class="portfolio-item">
+        <h3>EcoDrink - Animated Commercial</h3>
+        <img src="ecodrink.jpg" alt="EcoDrink Commercial">
+        <p>A captivating animated ad for a sustainable drink brand.</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>TechGadgets - Product Demo</h3>
+        <img src="techgadgets.jpg" alt="TechGadgets Demo">
+        <p>A high-tech product demo showcasing futuristic gadgets.</p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service-item">
+        <h3>3D Modeling</h3>
+        <p>We create realistic 3D models for ads, games, and more.</p>
+      </div>
+      <div class="service-item">
+        <h3>Animation</h3>
+        <p>From character animation to motion graphics, we bring your ideas to life.</p>
+      </div>
+      <div class="service-item">
+        <h3>Visual Effects (VFX)</h3>
+        <p>Enhance your videos with stunning visual effects.</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <h2>About Us</h2>
+      <p>At CGI Ad's Studio, we are a team of passionate artists and innovators specializing in creating visually stunning CGI ads. With years of experience, we transform ideas into reality, delivering exceptional results for our clients worldwide.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@cgiadsstudio.com">info@cgiadsstudio.com</a></p>
+      <p>Phone: +123 456 7890</p>
+      <p>Follow us on:
+        <a href="https://www.linkedin.com/in/cgi-ad-studio-studio-012529352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 CGI Ad's Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
